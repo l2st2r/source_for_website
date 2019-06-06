@@ -200,6 +200,10 @@ class mHTTPElement
             }
 
             $head .= ">";
+            
+            if (strcasecmp($this->eleType, "textarea") === 0) {
+                $head .= $this->value;
+            }
         }
 
 
