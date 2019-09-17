@@ -21,10 +21,7 @@
 - [ImagesLoaded](https://imagesloaded.desandro.com/)
 
 ### Fade Animation
-- [AOS](https://github.com/michalsnik/aos)
-  - [Angular Import](https://stackoverflow.com/a/47291014)
-  
-  Terminal
+- [AOS](https://github.com/michalsnik/aos) [Angular Import](https://stackoverflow.com/a/47291014)
   ```
   npm install aos --save
   ```
@@ -46,4 +43,9 @@
       AOS.init();
     }
   }
+  ```
+  ```
+  Note: 
+  Throttle: Call once ONLY every N second
+  Debounce: During N second first called, if no further call, call the last call.
   ```
