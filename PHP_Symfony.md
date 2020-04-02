@@ -6,7 +6,7 @@ Download Installer
  
  Make `Symfony` Accessible anywhere
  
- `mv /Users/weaverryan/.symfony/bin/symfony /usr/local/bin/symfony`
+ `mv /Users/{YOUR_USER_NAME}/.symfony/bin/symfony /usr/local/bin/symfony`
  
  ## Create Project
  
